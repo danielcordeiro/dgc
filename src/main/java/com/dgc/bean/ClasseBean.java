@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
-import com.lad.service.ClasseService;
+import com.dgc.service.ClasseService;
 
 @ManagedBean(name = "classeBean")
 @Controller

@@ -1,4 +1,4 @@
-package com.lad.properties;
+package com.dgc.properties;
 
 import java.util.ResourceBundle;
 

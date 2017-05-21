@@ -6,8 +6,8 @@ import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.dgc.dao.interfaces.EntidadeDAOInterface;
+import com.dgc.entidade.EntidadeModelo;
 import com.dgc.dao.interfaces.DaoModelInterface;
-import com.lad.entidade.EntidadeModelo;
 
 @Transactional
 @Repository("EntidadeDAO")

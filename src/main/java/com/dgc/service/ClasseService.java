@@ -1,4 +1,4 @@
-package com.lad.service;
+package com.dgc.service;
 
 import java.io.Serializable;
 

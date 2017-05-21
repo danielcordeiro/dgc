@@ -1,6 +1,6 @@
 package com.dgc.dao.interfaces;
 
-import com.lad.entidade.EntidadeModelo;
+import com.dgc.entidade.EntidadeModelo;
 
 public interface EntidadeDAOInterface extends DaoInterface<EntidadeModelo> {
 }

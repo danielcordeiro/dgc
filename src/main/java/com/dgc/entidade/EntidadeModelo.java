@@ -1,4 +1,4 @@
-package com.lad.entidade;
+package com.dgc.entidade;
 
 import java.util.Date;
 

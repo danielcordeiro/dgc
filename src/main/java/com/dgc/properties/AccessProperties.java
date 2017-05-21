@@ -1,4 +1,4 @@
-package com.lad.properties;
+package com.dgc.properties;
 
 public class AccessProperties {
 	

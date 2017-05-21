@@ -14,7 +14,7 @@ import org.hibernate.criterion.Restrictions;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.lad.entidade.Entidade;
+import com.dgc.entidade.Entidade;
 
 @Repository
 @Transactional

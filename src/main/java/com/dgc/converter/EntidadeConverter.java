@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import com.dgc.dao.interfaces.EntidadeDAOInterface;
-import com.lad.entidade.EntidadeModelo;
+import com.dgc.entidade.EntidadeModelo;
 
 @Component
 @Scope(value = "request")

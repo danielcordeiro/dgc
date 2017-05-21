@@ -1,4 +1,4 @@
-package com.lad.entidade;
+package com.dgc.entidade;
 
 import java.io.Serializable;
 import java.util.Date;
