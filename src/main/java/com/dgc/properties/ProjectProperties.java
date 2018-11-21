@@ -9,7 +9,6 @@ public class ProjectProperties {
 	}
 
 	private static ResourceBundle resourceBundle;
-	private static ResourceBundle resourceBundleConf;
 	private static ResourceBundle resourceBundleVersao;
 
 	public static ResourceBundle getResourceBundle() {

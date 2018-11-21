@@ -7,8 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.Index;
-
 @Entity
 @Table(name = "entidade", schema = "public")
 public class EntidadeModelo extends Entidade {
@@ -21,6 +19,31 @@ public class EntidadeModelo extends Entidade {
 
 	@Column(name = "descricao")
 	private String descricao;
+	
+
+	@Column(name = "data_alteracao")
+	private Date dataAlteracao;
+
+	@Column(name = "id_usuario")
+	private Long idUsuario;
+
+	@Column(name = "ind_deletado")
+	private boolean indDeletado;
+
+	public void setIndDeletado(boolean indDeletado) {
+		super.setIndDeletado(indDeletado);
+		this.indDeletado = indDeletado;
+	}
+
+	public void setDataAlteracao(Date dataAlteracao) {
+		super.setDataAlteracao(dataAlteracao);
+		this.dataAlteracao = dataAlteracao;
+	}
+
+	public void setIdUsuario(Long idUsuario) {
+		super.setIdUsuario(idUsuario);
+		this.idUsuario = idUsuario;
+	}
 
 	public long getId() {
 		return id;
